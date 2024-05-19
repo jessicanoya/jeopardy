@@ -1,0 +1,11 @@
+Workflow
+
+1. Define constants and variables
+    - Store APIs into variables
+2. Fetch existing category IDs from categories API and save it to an array
+    - By storing all IDs in catergoryID we can shuffle the array for new categories everytime
+3. Fetch category data. 
+    - With the category ID's stored in the array, we can fetch answers/questions from the "clues" API
+    - Store object in array categories
+4. Fill the HTML table
+5. Handle clue clicks
